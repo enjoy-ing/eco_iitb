@@ -20,13 +20,6 @@ const HomePage = () => {
       color: 'bg-green-500'
     },
     {
-      icon: Users,
-      title: 'Query Support',
-      description: 'Get help from seniors and peers with your academic and career questions.',
-      link: '/team',
-      color: 'bg-purple-500'
-    },
-    {
       icon: TrendingUp,
       title: 'Department Updates',
       description: 'Stay informed about the latest news, events, and opportunities in economics.',

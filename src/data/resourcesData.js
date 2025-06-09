@@ -6,7 +6,7 @@ export const resourcesData = [
     type: 'Academic',
     category: 'semester',
     icon: 'Book',
-    fileUrl: 'https://drive.google.com/drive/folders/1Casjn8ufhvRYpBgZ7rHZIh0JNwpzNr94'
+    pageUrl: '/eco_iitb/#/resources/sem2'
   },
   {
     id: 2,

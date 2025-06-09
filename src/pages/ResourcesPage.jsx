@@ -91,7 +91,7 @@ const ResourcesPage = () => {
                       <h3 className="font-semibold text-gray-900">{resource.title}</h3>
                     </div>
                     <a 
-                      href={resource.fileUrl} 
+                      href={resource.fileUrl || resource.pageUrl} 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-econ-blue-600 hover:text-econ-blue-800 font-medium text-sm"

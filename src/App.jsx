@@ -8,6 +8,7 @@ import CourseReviewsPage from './pages/CourseReviewsPage';
 import CourseDetailPage from './pages/CourseDetailPage';
 import BlogPage from './pages/BlogPage';
 import CouncilTeamPage from './pages/CouncilTeamPage';
+import SemesterPage from './pages/SemesterPage';
 import Footer from './components/Footer';
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
             <Route path="/reviews/:courseCode" element={<CourseDetailPage />} />
             <Route path="/blog" element={<BlogPage />} />
             <Route path="/council" element={<CouncilTeamPage />} />
+            <Route path="/resources/sem2" element={<SemesterPage semester="Semester 2" />} />
+
           </Routes>
         </main>
         <Footer />

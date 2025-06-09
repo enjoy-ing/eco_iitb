@@ -1,6 +1,7 @@
 // src/components/Footer.jsx
 import React from 'react';
 import { Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -9,13 +10,12 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Section */}
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-lg font-semibold mb-4">Economics Student Portal</h3>
+            <h3 className="text-lg font-semibold mb-4">Economics Student Association</h3>
             <p className="text-gray-300 mb-4">
-              Supporting IITB Economics students with comprehensive resources, course reviews, 
-              and community connections. Building a stronger economics academic community.
+              
             </p>
             <p className="text-sm text-gray-400">
-              © 2025 Economics Student Portal. All rights reserved.
+              Proudly created and managed with 🫶🏻 by Economics Association and DAMP Team
             </p>
           </div>
 
@@ -23,10 +23,10 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
-              <li><a href="/resources" className="text-gray-300 hover:text-white transition-colors">Academic Resources</a></li>
-              <li><a href="/reviews" className="text-gray-300 hover:text-white transition-colors">Course Reviews</a></li>
-              <li><a href="/blog" className="text-gray-300 hover:text-white transition-colors">Blog Articles</a></li>
-              <li><a href="/team" className="text-gray-300 hover:text-white transition-colors">Council Team</a></li>
+              <li><Link to="/resources" className="text-gray-300 hover:text-white transition-colors">Academic Resources</Link></li>
+              <li><Link to="/reviews" className="text-gray-300 hover:text-white transition-colors">Course Reviews</Link></li>
+              <li><Link to="/blog" className="text-gray-300 hover:text-white transition-colors">Blog Articles</Link></li>
+              <li><Link to="/team" className="text-gray-300 hover:text-white transition-colors">Council Team</Link></li>
             </ul>
           </div>
 
