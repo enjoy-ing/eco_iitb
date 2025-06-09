@@ -133,29 +133,6 @@ const CourseReviewsPage = () => {
             </div>
           ))}
         </div>
-
-        {/* Stats Section */}
-        <div className="mt-16 bg-white rounded-lg shadow-lg p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6 text-center">Course Statistics</h2>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-            <div className="text-center p-4 bg-blue-50 rounded-lg">
-              <div className="text-3xl font-bold text-blue-600 mb-2">27</div>
-              <div className="text-gray-600">Total Courses</div>
-            </div>
-            <div className="text-center p-4 bg-green-50 rounded-lg">
-              <div className="text-3xl font-bold text-green-600 mb-2">2</div>
-              <div className="text-gray-600">Reviews Available</div>
-            </div>
-            <div className="text-center p-4 bg-purple-50 rounded-lg">
-              <div className="text-3xl font-bold text-purple-600 mb-2">5</div>
-              <div className="text-gray-600">Semesters</div>
-            </div>
-            <div className="text-center p-4 bg-orange-50 rounded-lg">
-              <div className="text-3xl font-bold text-orange-600 mb-2">6</div>
-              <div className="text-gray-600">Electives</div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

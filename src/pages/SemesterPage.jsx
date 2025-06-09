@@ -11,8 +11,7 @@ const semesterCourses = {
     { name: 'EC101: Introduction to Economics', file: 'resources/intro_economics.pdf' },
     { name: 'MA110: ', file: 'resources/maths1.pdf' },
     { name: 'PH110: ', file: 'resources/statistics.pdf' },
-    { name: 'MS101: ', file: 'resources/computers.pdf' },
-    { name: 'AAAAA', file: 'resources/communication.pdf' }
+    { name: 'MS101: ', file: 'resources/computers.pdf' }
   ],
   // Repeat for other semesters...
 };
